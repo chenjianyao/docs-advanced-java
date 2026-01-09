@@ -1,6 +1,11 @@
 import { defineConfig } from "vitepress";
 
+// 如果使用 GitHub/Gitee Pages 等公共平台部署
+// 通常需要修改 base 路径,通常为 "/仓库名/", 否则为"/"
+const BASE = '/docs-advanced-java/'
+
 export default defineConfig({
+  BASE,
   title: "advanced-java",
   ignoreDeadLinks: true,
   themeConfig: {
