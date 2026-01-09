@@ -14,7 +14,7 @@ export default defineConfig({
     },
     footer: {
       message: 'Released under the CC-BY-SA-4.0 license.',
-      copyright: `Copyright © 2018-${new Date().getFullYear()} <a href="https://github.com/doocs">Doocs</a>`
+      copyright: `Copyright © 2026-${new Date().getFullYear()} <a href="https://github.com/doocs">Doocs</a>`
     },
     logo: '/icon.png',
     docFooter: {
@@ -468,21 +468,6 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' }],
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GWYHFTEDNE' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-GWYHFTEDNE');`
-    ]
   ],
-  cleanUrls: true,
-  sitemap: {
-    hostname: 'https://java.doocs.org'
-  }
+  cleanUrls: true
 });
