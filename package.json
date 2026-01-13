@@ -1,16 +1,15 @@
 {
-  "name": "advanced-java",
+  "name": "docs-template",
+  "description": "a vitepress site template, updated at 2026-01-13",
+  "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.12.3",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "dependencies": {
-    "vitepress-plugin-comment-with-giscus": "^1.1.15"
-  },
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.12"
-  }
+    "vitepress": "^2.0.0-alpha.15"
+  },
+  "packageManager": "pnpm@10.22.0"
 }
