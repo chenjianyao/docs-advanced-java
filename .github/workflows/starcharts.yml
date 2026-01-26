@@ -9,6 +9,7 @@ jobs:
   update-readme:
     name: Generate starcharts
     runs-on: ubuntu-latest
+    if: github.repository == 'doocs/advanced-java'
     steps:
       - uses: MaoLongLong/actions-starcharts@main
         with:
